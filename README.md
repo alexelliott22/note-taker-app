@@ -4,6 +4,13 @@
   ## Description
   This app help the user take notes for whatever they might need. 
 
+  ## Github link
+  <https://github.com/alexelliott22/note-taker-app>
+
+  ## Deployed Link
+  <https://note-taker-2222.herokuapp.com/>
+
+
   ## Walkthrough Video
   [Walkthrough video]()
 
