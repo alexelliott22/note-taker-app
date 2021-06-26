@@ -1,12 +1,13 @@
 const router = require('express').Router();
-const { notes } = require('../db/db');
-const {createNewNote, validateNote, deleteNote} = require('../lib/notes');
+const { notes } = require('../db/db.json');
+const {createNewNote, validateNote, deleteNote, readNotesFile} = require('../lib/notes');
 
 
-router.get('/notes', (req, res) => {
-    const results = notes;
-    console.log(results);
-    res.json(results);
+router.get('/notes', async (req, res) => { 
+    const notesFile = readNotesFile();
+    const notes = JSON.parse(notesFile)
+
+    res.json(notes.notes);
 })
 
 router.post('/notes', (req, res) => {
