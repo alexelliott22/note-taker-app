@@ -2,7 +2,7 @@
   # Note Taker App
 
   ## Description
-  This app help the user take notes for whatever they might need. 
+  This app help the user take notes for whatever they might need. First the user needs to click on the get started button on the homepage. Then they can click into the open note and create a new note or look at their existing notes. Once they start typeing their new note, a save icon appear at the top right of the screen wich allows the user t o save the note they just created. By clicking the trash can icon next to the note on the left hand side the user is able to delete old notes.
 
   ## Github link
   <https://github.com/alexelliott22/note-taker-app>
