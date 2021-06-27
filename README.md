@@ -12,7 +12,7 @@
 
 
   ## Walkthrough Video
-  [Walkthrough video]()
+  [Walkthrough video](https://drive.google.com/file/d/18IG-HO4UPWxDRVJoOcg-yJvWhkrib8Yj/view?usp=sharing)
 
   ## Table of Contents
 
@@ -23,7 +23,7 @@
   ## Installation
 
   To install the necessary dependencies run the following command:
-  npm i, npm i uniqid, and npm install --save-dev jest
+  npm i, npm i uniqid, npm install --save-dev jest, npm i morgan, and npm i nodemon
 
 
   ## Tests
